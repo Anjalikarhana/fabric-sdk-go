@@ -21,13 +21,13 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/verifier"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/Anjalikarhana/fabric-sdk-go/internal/github.com/Anjalikarhana/fabric/protoutil"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/client/common/verifier"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/context"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/core/config/comm"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/core/config/endpoint"
 )
 
 const (

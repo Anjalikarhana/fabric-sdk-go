@@ -17,11 +17,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/policydsl"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/fab"
+	contextImpl "github.com/Anjalikarhana/fabric-sdk-go/pkg/context"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/fab/txn"
 )
 
 func TestLifecycle_Install(t *testing.T) {

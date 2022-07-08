@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/Anjalikarhana/fabric-sdk-go/test/metadata"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/resource/genesisconfig"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/fab/resource/genesisconfig"
 	"github.com/stretchr/testify/require"
 )
 
-// Mock profiles are based on https://github.com/hyperledger/fabric/blob/v2.0.0-alpha/sampleconfig/configtx.yaml
+// Mock profiles are based on https://github.com/Anjalikarhana/fabric/blob/v2.0.0-alpha/sampleconfig/configtx.yaml
 
 func channelCapabilities() map[string]bool {
 	return map[string]bool{

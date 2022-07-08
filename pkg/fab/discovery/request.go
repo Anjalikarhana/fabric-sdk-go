@@ -8,7 +8,7 @@ package discovery
 
 import (
 	"github.com/hyperledger/fabric-protos-go/peer"
-	discclient "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
+	discclient "github.com/Anjalikarhana/fabric-sdk-go/internal/github.com/Anjalikarhana/fabric/discovery/client"
 )
 
 // Request aggregates several queries inside it

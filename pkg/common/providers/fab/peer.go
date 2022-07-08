@@ -39,6 +39,10 @@ const (
 	PropertyChaincodes Property = "Chaincodes"
 	// PropertyLedgerHeight defines the ledger height property. Value type: uint64
 	PropertyLedgerHeight Property = "LedgerHeight"
+
+	// PropertyLedgerHeight defines the ledger height property. Value type: uint64
+	PropertyDC_NAME Property = "DC_NAME"
+
 	// PropertyLeftChannel defines the "left-channel" property which indicates whether the peer left the channel. Value type: bool
 	PropertyLeftChannel Property = "LeftChannel"
 )

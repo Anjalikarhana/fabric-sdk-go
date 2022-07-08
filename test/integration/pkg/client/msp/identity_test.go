@@ -13,11 +13,11 @@ import (
 
 	"fmt"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/gateway"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/client/msp"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/fabsdk"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/gateway"
+	"github.com/Anjalikarhana/fabric-sdk-go/test/integration"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -48,7 +48,7 @@ func TestIdentity(t *testing.T) {
 		Type:        IdentityTypeUser,
 		Attributes:  testAttributes,
 		// Affiliation and ID are mandatory. "org1" and "org2" are hardcoded as CA defaults
-		// See https://github.com/hyperledger/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
+		// See https://github.com/Anjalikarhana/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
 	}
 
 	// Create new identity
@@ -115,7 +115,7 @@ func TestUpdateIdentity(t *testing.T) {
 		Type:        IdentityTypeUser,
 		Attributes:  testAttributes,
 		// Affiliation and ID are mandatory. "org1" and "org2" are hardcoded as CA defaults
-		// See https://github.com/hyperledger/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
+		// See https://github.com/Anjalikarhana/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
 	}
 
 	// Create new identity

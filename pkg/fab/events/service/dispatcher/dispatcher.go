@@ -16,11 +16,11 @@ import (
 	"github.com/golang/protobuf/proto"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/pkg/txflags"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/Anjalikarhana/fabric-sdk-go/internal/github.com/Anjalikarhana/fabric/protoutil"
+	"github.com/Anjalikarhana/fabric-sdk-go/internal/github.com/Anjalikarhana/fabric/sdkinternal/pkg/txflags"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/logging"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/options"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

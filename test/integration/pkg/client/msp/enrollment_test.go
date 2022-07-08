@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	mspctx "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/client/msp"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/context"
+	mspctx "github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/fabsdk"
+	"github.com/Anjalikarhana/fabric-sdk-go/test/integration"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )
@@ -104,7 +104,7 @@ func testRegisterEnrollWithCAInstance(t *testing.T, ctxProvider context.ClientPr
 		Type:       IdentityTypeUser,
 		Attributes: testAttributes,
 		// Affiliation is mandatory. "org1" and "org2" are hardcoded as CA defaults
-		// See https://github.com/hyperledger/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
+		// See https://github.com/Anjalikarhana/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
 		Affiliation: "org2",
 	})
 	if err != nil {
@@ -217,7 +217,7 @@ func TestEnrollWithOptions(t *testing.T) {
 		Type:       IdentityTypeUser,
 		Attributes: testAttributes,
 		// Affiliation is mandatory. "org1" and "org2" are hardcoded as CA defaults
-		// See https://github.com/hyperledger/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
+		// See https://github.com/Anjalikarhana/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
 		Affiliation: "org2",
 	})
 	if err != nil {
@@ -294,7 +294,7 @@ func TestEnrollWithProfile(t *testing.T) {
 		Name: username,
 		Type: IdentityTypeUser,
 		// Affiliation is mandatory. "org1" and "org2" are hardcoded as CA defaults
-		// See https://github.com/hyperledger/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
+		// See https://github.com/Anjalikarhana/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
 		Affiliation: "org2",
 	})
 	if err != nil {
@@ -349,7 +349,7 @@ func TestEnrollWithCSR(t *testing.T) {
 		Name: username,
 		Type: IdentityTypeUser,
 		// Affiliation is mandatory. "org1" and "org2" are hardcoded as CA defaults
-		// See https://github.com/hyperledger/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
+		// See https://github.com/Anjalikarhana/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
 		Affiliation: "org2",
 	})
 	if err != nil {

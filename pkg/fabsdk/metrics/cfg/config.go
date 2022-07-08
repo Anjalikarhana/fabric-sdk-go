@@ -9,8 +9,8 @@ package cfg
 import (
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/core/config/lookup"
 	"github.com/pkg/errors"
 )
 

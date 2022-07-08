@@ -119,7 +119,7 @@ services:
     #comment out logging.driver in order to render the debug logs
     logging:
       driver: none
-    working_dir: /opt/gopath/src/github.com/hyperledger/fabric/orderer
+    working_dir: /opt/gopath/src/github.com/Anjalikarhana/fabric/orderer
     command: orderer
     ports:
       - 7050:7050
@@ -168,7 +168,7 @@ services:
     #comment out logging.driver in order to render the debug logs
     logging:
       driver: none
-    working_dir: /opt/gopath/src/github.com/hyperledger/fabric
+    working_dir: /opt/gopath/src/github.com/Anjalikarhana/fabric
     command: peer node start
     ports:
       - "7051:7051"
@@ -224,7 +224,7 @@ services:
     #comment out logging.driver in order to render the debug logs
     logging:
       driver: none
-    working_dir: /opt/gopath/src/github.com/hyperledger/fabric
+    working_dir: /opt/gopath/src/github.com/Anjalikarhana/fabric
     command: peer node start
     ports:
       - "7151:7151"
@@ -280,7 +280,7 @@ services:
     #comment out logging.driver in order to render the debug logs
     logging:
       driver: none
-    working_dir: /opt/gopath/src/github.com/hyperledger/fabric
+    working_dir: /opt/gopath/src/github.com/Anjalikarhana/fabric
     command: peer node start
     ports:
       - "8051:8051"
@@ -335,7 +335,7 @@ services:
     #comment out logging.driver in order to render the debug logs
     logging:
       driver: none
-    working_dir: /opt/gopath/src/github.com/hyperledger/fabric
+    working_dir: /opt/gopath/src/github.com/Anjalikarhana/fabric
     command: peer node start
     ports:
       - "9051:9051"

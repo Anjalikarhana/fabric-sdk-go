@@ -13,15 +13,15 @@ import (
 
 	"encoding/hex"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	mspctx "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	mspimpl "github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/client/msp"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/context"
+	mspctx "github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/fab"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/fabsdk"
+	mspimpl "github.com/Anjalikarhana/fabric-sdk-go/pkg/msp"
+	"github.com/Anjalikarhana/fabric-sdk-go/test/integration"
 )
 
 // TestWithCustomStores demonstrates the usage of custom key and cert stores
@@ -118,7 +118,7 @@ func TestWithCustomStores(t *testing.T) {
 		Name: username,
 		Type: IdentityTypeUser,
 		// Affiliation is mandatory. "org1" and "org2" are hardcoded as CA defaults
-		// See https://github.com/hyperledger/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
+		// See https://github.com/Anjalikarhana/fabric-ca/blob/release/cmd/fabric-ca-server/config.go
 		Affiliation: "org2",
 	})
 	if err != nil {

@@ -12,7 +12,7 @@ SPDX-License-Identifier: Apache-2.0
 // as specified in a network configuration file, using an identity stored in a wallet.
 // Interactions with smart contracts are then invoked within the context of this gateway connection.
 //
-// See https://github.com/hyperledger/fabric-samples/blob/master/fabcar/go/fabcar.go
+// See https://github.com/Anjalikarhana/fabric-samples/blob/master/fabcar/go/fabcar.go
 // for a working sample.
 package gateway
 
@@ -21,14 +21,14 @@ import (
 	"strings"
 	"time"
 
-	fabricCaUtil "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	mspProvider "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/api"
+	fabricCaUtil "github.com/Anjalikarhana/fabric-sdk-go/internal/github.com/Anjalikarhana/fabric-ca/sdkinternal/pkg/util"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/fab"
+	mspProvider "github.com/Anjalikarhana/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/fabsdk"
+	"github.com/Anjalikarhana/fabric-sdk-go/pkg/fabsdk/api"
 	"github.com/pkg/errors"
 )
 

@@ -16,13 +16,13 @@ import (
 	mb "github.com/hyperledger/fabric-protos-go/msp"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
 	pp "github.com/hyperledger/fabric-protos-go/peer"
-	cutil "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
+	cutil "github.com/Anjalikarhana/fabric-sdk-go/internal/github.com/Anjalikarhana/fabric/common/util"
+	"github.com/Anjalikarhana/fabric-sdk-go/internal/github.com/Anjalikarhana/fabric/protoutil"
 
 	"time"
 
-	channelConfig "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/pkg/txflags"
+	channelConfig "github.com/Anjalikarhana/fabric-sdk-go/internal/github.com/Anjalikarhana/fabric/common/channelconfig"
+	"github.com/Anjalikarhana/fabric-sdk-go/internal/github.com/Anjalikarhana/fabric/sdkinternal/pkg/txflags"
 	"github.com/pkg/errors"
 )
 

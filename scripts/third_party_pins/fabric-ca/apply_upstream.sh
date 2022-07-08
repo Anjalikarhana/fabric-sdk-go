@@ -14,11 +14,11 @@ set -e
 echo "UPSTREAM_BRANCH=$UPSTREAM_BRANCH"
 echo "UPSTREAM_COMMIT=$UPSTREAM_COMMIT"
 
-UPSTREAM_PROJECT="github.com/hyperledger/fabric-ca"
+UPSTREAM_PROJECT="github.com/Anjalikarhana/fabric-ca"
 UPSTREAM_BRANCH="${UPSTREAM_BRANCH:-release}"
 SCRIPTS_PATH="scripts/third_party_pins/fabric-ca"
 
-THIRDPARTY_INTERNAL_FABRIC_CA_PATH='internal/github.com/hyperledger/fabric-ca'
+THIRDPARTY_INTERNAL_FABRIC_CA_PATH='internal/github.com/Anjalikarhana/fabric-ca'
 
 ####
 # Clone and patch packages into repo
